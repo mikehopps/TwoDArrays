@@ -8,6 +8,23 @@ public class PracticeProblems {
         //1. Write a code segment to create a 2D array of Strings that...
         //has 4 rows and 5 columns.  The odd columns contain "x",
         //the even columns contain "y".
+        //Print it using the method below.
+
+
+
+        //2. Write a code segment to create a 2D array of ints
+        //that has 4 rows and 6 columns.  It looks like this:
+        /*
+        111111
+        222222
+        333333
+        444444
+         */
+
+
+
+
+
 
     }
 
