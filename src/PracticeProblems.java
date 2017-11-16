@@ -10,6 +10,16 @@ public class PracticeProblems {
         //the even columns contain "y".
         //Print it using the method below.
 
+        String[][] strs = new String[4][5];
+        for (int r = 0; r < strs.length; r++) {
+            for (int c = 0; c < strs[0].length; c++) {
+                if(c % 2 == 1)
+                    strs[r][c] = "x";
+                else
+                    strs[r][c] = "y";
+            }
+        }
+        printArray(strs);
 
 
         //2. Write a code segment to create a 2D array of ints
@@ -20,8 +30,13 @@ public class PracticeProblems {
         333333
         444444
          */
-
-
+        int[][] intGrid = new int[4][6];
+        for (int r = 0; r < intGrid.length; r++) {
+            for (int c = 0; c < intGrid[0].length; c++) {
+                intGrid[r][c] = r + 1;
+            }
+        }
+        printArray(intGrid);
 
 
 
